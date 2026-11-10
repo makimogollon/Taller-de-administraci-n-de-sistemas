@@ -1,1 +1,1 @@
-# Taller-de-administraci-n-de-sistemas
+# Taller-de-administracion-de-sistemas
