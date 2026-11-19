@@ -1,0 +1,30 @@
+uBridge version 0.9.16 running with Npcap version 1.78, based on libpcap version 1.10.4
+Hypervisor TCP control server started (IP localhost port 49941).
+UDP tunnel connecting from local port 3043 to IPv4 addresss 127.0.0.1 on port 3042
+UDP tunnel connecting from local port 3040 to IPv4 addresss 127.0.0.1 on port 3041
+Source NIO listener thread for DYNAMIPS-3042-3043 has started
+Destination NIO listener thread for DYNAMIPS-3042-3043 has started
+UDP tunnel connecting from local port 3049 to IPv4 addresss 127.0.0.1 on port 3048
+UDP tunnel connecting from local port 3046 to IPv4 addresss 127.0.0.1 on port 3047
+Source NIO listener thread for DYNAMIPS-3048-3049 has started
+Destination NIO listener thread for DYNAMIPS-3048-3049 has started
+UDP tunnel connecting from local port 3053 to IPv4 addresss 127.0.0.1 on port 3052
+UDP tunnel connecting from local port 3050 to IPv4 addresss 127.0.0.1 on port 3051
+Source NIO listener thread for DYNAMIPS-3052-3053 has started
+Destination NIO listener thread for DYNAMIPS-3052-3053 has started
+UDP tunnel connecting from local port 3057 to IPv4 addresss 127.0.0.1 on port 3056
+UDP tunnel connecting from local port 3054 to IPv4 addresss 127.0.0.1 on port 3055
+Source NIO listener thread for DYNAMIPS-3056-3057 has started
+Destination NIO listener thread for DYNAMIPS-3056-3057 has started
+UDP tunnel connecting from local port 3061 to IPv4 addresss 127.0.0.1 on port 3060
+UDP tunnel connecting from local port 3058 to IPv4 addresss 127.0.0.1 on port 3059
+Source NIO listener thread for DYNAMIPS-3060-3061 has started
+Destination NIO listener thread for DYNAMIPS-3060-3061 has started
+UDP tunnel connecting from local port 3065 to IPv4 addresss 127.0.0.1 on port 3064
+UDP tunnel connecting from local port 3062 to IPv4 addresss 127.0.0.1 on port 3063
+Source NIO listener thread for DYNAMIPS-3064-3065 has started
+Destination NIO listener thread for DYNAMIPS-3064-3065 has started
+UDP tunnel connecting from local port 3069 to IPv4 addresss 127.0.0.1 on port 3068
+UDP tunnel connecting from local port 3066 to IPv4 addresss 127.0.0.1 on port 3067
+Source NIO listener thread for DYNAMIPS-3068-3069 has started
+Destination NIO listener thread for DYNAMIPS-3068-3069 has started
