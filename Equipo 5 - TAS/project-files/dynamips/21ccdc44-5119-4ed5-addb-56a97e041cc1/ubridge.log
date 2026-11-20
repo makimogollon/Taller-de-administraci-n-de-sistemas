@@ -8,3 +8,12 @@ UDP tunnel connecting from local port 10039 to IPv4 addresss 127.0.0.1 on port 1
 UDP tunnel connecting from local port 10035 to IPv4 addresss 127.0.0.1 on port 10034
 Source NIO listener thread for DYNAMIPS-10038-10039 has started
 Destination NIO listener thread for DYNAMIPS-10038-10039 has started
+Hypervisor TCP control server started (IP localhost port 49902).
+UDP tunnel connecting from local port 3005 to IPv4 addresss 127.0.0.1 on port 3004
+UDP tunnel connecting from local port 3001 to IPv4 addresss 127.0.0.1 on port 3000
+Source NIO listener thread for DYNAMIPS-3004-3005 has started
+Destination NIO listener thread for DYNAMIPS-3004-3005 has started
+UDP tunnel connecting from local port 3039 to IPv4 addresss 127.0.0.1 on port 3038
+UDP tunnel connecting from local port 3035 to IPv4 addresss 127.0.0.1 on port 3034
+Source NIO listener thread for DYNAMIPS-3038-3039 has started
+Destination NIO listener thread for DYNAMIPS-3038-3039 has started
