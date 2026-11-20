@@ -1,6 +1,0 @@
-
-*.ghost
-*project-files/dynamips/*.ghost
-*.log
-**/ubridge.log
-dynamips_i1_stdout.txt
