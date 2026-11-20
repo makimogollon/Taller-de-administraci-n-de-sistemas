@@ -1,6 +1,4 @@
 cygwin warning:
-  MS-DOS style path detected: C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips
-  Preferred POSIX equivalent is: /cygdrive/c/Users/Usuario/Desktop/Repositorios/Taller-de-administraci-n-de-sistemas/Equipo 5 - TAS/project-files/dynamips
   MS-DOS style path detected: C:\Users\felip\OneDrive\Documentos\GitHub\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips
   Preferred POSIX equivalent is: /cygdrive/c/Users/felip/OneDrive/Documentos/GitHub/Taller-de-administraci-n-de-sistemas/Equipo 5 - TAS/project-files/dynamips
   CYGWIN environment variable option "nodosfilewarning" turns off this warning.
