@@ -420,38 +420,6 @@
             },
             {
                 "filters": {},
-                "link_id": "e0c6ec51-db65-4345-bc7c-c16aa46ceebc",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -26,
-                            "y": 33
-                        },
-                        "node_id": "10393ee4-5fa9-47b7-acb0-ecc1ab724b3b",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/6",
-                            "x": 68,
-                            "y": 40
-                        },
-                        "node_id": "7b06ec84-5355-4598-a57b-7bcedacb7e62",
-                        "port_number": 6
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "2d38e944-0488-4061-8525-d4393ab89a1d",
                 "link_style": {},
                 "nodes": [
@@ -737,6 +705,38 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "e69d01ac-c0a4-4e63-921b-5063857d7972",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/6",
+                            "x": 63,
+                            "y": 48
+                        },
+                        "node_id": "7b06ec84-5355-4598-a57b-7bcedacb7e62",
+                        "port_number": 6
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -5,
+                            "y": -3
+                        },
+                        "node_id": "afbc37d8-f6c1-49ac-84ea-4752c3b62e96",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -937,38 +937,9 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -168,
-                "y": 316,
+                "x": -207,
+                "y": 312,
                 "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5016,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC7",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC7",
-                "node_id": "10393ee4-5fa9-47b7-acb0-ecc1ab724b3b",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": -40,
-                "y": 306,
-                "z": -1
             },
             {
                 "compute_id": "local",
@@ -1268,8 +1239,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SW-Valp",
-                    "x": -7,
-                    "y": -25
+                    "x": 14,
+                    "y": -33
                 },
                 "locked": false,
                 "name": "SW-Valp",
@@ -1339,6 +1310,44 @@
                 "width": 65,
                 "x": 848,
                 "y": 63,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "WinServer-TechnoMarket-1",
+                    "x": -61,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "WinServer-TechnoMarket-1",
+                "node_id": "afbc37d8-f6c1-49ac-84ea-4752c3b62e96",
+                "node_type": "vmware",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "e1000",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmx_path": "C:\\Users\\Usuario\\Documents\\Virtual Machines\\Win Server - TechnoMarket.vmx"
+                },
+                "symbol": ":/symbols/vmware_guest.svg",
+                "template_id": "86384bc7-8b14-414d-af59-d37280d35b58",
+                "width": 65,
+                "x": -72,
+                "y": 310,
                 "z": 1
             }
         ]
