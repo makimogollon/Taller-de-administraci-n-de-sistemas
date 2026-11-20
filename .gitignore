@@ -1,3 +1,9 @@
 
 *.ghost
 *project-files/dynamips/*.ghost
+
+*.vmdk
+*.nvram
+*.vmsd
+*.vmem
+*Maquinas Virtuales/
