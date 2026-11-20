@@ -1,0 +1,68 @@
+Nov 19 19:07:00.206 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 19 19:07:00.206 HYPERVISOR: Started on IP = localhost, TCP port = 64845.
+Nov 19 19:07:00.698 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 19:07:00.698 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips 
+Nov 19 19:07:00.699 GENERAL: working_dir=C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips
+Nov 19 19:07:00.699 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\7b06ec84-5355-4598-a57b-7bcedacb7e62 
+Nov 19 19:07:00.701 GENERAL: working_dir=C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\7b06ec84-5355-4598-a57b-7bcedacb7e62
+Nov 19 19:07:00.701 HYPERVISOR: exec_cmd: vm create SW-Sant 3 c2691 
+Nov 19 19:07:00.702 VM: VM SW-Sant created.
+Nov 19 19:07:00.703 HYPERVISOR: exec_cmd: vm set_con_tcp_port SW-Sant 5021 
+Nov 19 19:07:00.703 HYPERVISOR: exec_cmd: c2691 get_mac_addr SW-Sant 
+Nov 19 19:07:00.704 HYPERVISOR: exec_cmd: vm set_disk0 SW-Sant 32 
+Nov 19 19:07:00.704 HYPERVISOR: exec_cmd: vm set_disk1 SW-Sant 32 
+Nov 19 19:07:00.705 HYPERVISOR: exec_cmd: vm set_exec_area SW-Sant 64 
+Nov 19 19:07:00.706 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:00.707 HYPERVISOR: exec_cmd: vm set_idle_pc SW-Sant 0x60b70574 
+Nov 19 19:07:00.707 HYPERVISOR: exec_cmd: vm set_ios SW-Sant C:/Users/Usuario/GNS3/images/IOS/c2691-adventerprisek9_sna-mz.124-13b.image 
+Nov 19 19:07:00.709 HYPERVISOR: exec_cmd: c2691 set_mac_addr SW-Sant c003.0b88.0000 
+Nov 19 19:07:00.709 HYPERVISOR: exec_cmd: vm set_nvram SW-Sant 256 
+Nov 19 19:07:00.709 HYPERVISOR: exec_cmd: vm set_ram SW-Sant 192 
+Nov 19 19:07:00.709 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:00.709 HYPERVISOR: exec_cmd: vm slot_add_binding SW-Sant 1 0 NM-16ESW 
+Nov 19 19:07:02.024 HYPERVISOR: exec_cmd: nio create_udp udp-5a91713a-b8a5-4550-bd34-20c6b3609131 10008 127.0.0.1 10009 
+Nov 19 19:07:02.342 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 1 udp-5a91713a-b8a5-4550-bd34-20c6b3609131 
+Nov 19 19:07:02.344 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.424 HYPERVISOR: exec_cmd: nio create_udp udp-5b3032f3-117d-4f42-aa99-adc03775fb89 10012 127.0.0.1 10013 
+Nov 19 19:07:02.434 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 2 udp-5b3032f3-117d-4f42-aa99-adc03775fb89 
+Nov 19 19:07:02.434 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.511 HYPERVISOR: exec_cmd: nio create_udp udp-335f99e7-cde0-4795-a6fb-e4636063cfe4 10016 127.0.0.1 10017 
+Nov 19 19:07:02.514 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 3 udp-335f99e7-cde0-4795-a6fb-e4636063cfe4 
+Nov 19 19:07:02.514 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.594 HYPERVISOR: exec_cmd: nio create_udp udp-d9830a15-981d-4542-822f-f350a2e5ea8b 10020 127.0.0.1 10021 
+Nov 19 19:07:02.597 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 4 udp-d9830a15-981d-4542-822f-f350a2e5ea8b 
+Nov 19 19:07:02.599 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.709 HYPERVISOR: exec_cmd: nio create_udp udp-412d5cd2-32fb-45ad-b838-eae3e382b58d 10024 127.0.0.1 10025 
+Nov 19 19:07:02.714 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 5 udp-412d5cd2-32fb-45ad-b838-eae3e382b58d 
+Nov 19 19:07:02.714 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.794 HYPERVISOR: exec_cmd: nio create_udp udp-a904b28a-0557-4ba3-a2ec-3d94c7f9b41f 10028 127.0.0.1 10029 
+Nov 19 19:07:02.806 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 6 udp-a904b28a-0557-4ba3-a2ec-3d94c7f9b41f 
+Nov 19 19:07:02.806 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.876 HYPERVISOR: exec_cmd: nio create_udp udp-d5c640ae-7875-4872-b083-e5bf851e341e 10032 127.0.0.1 10033 
+Nov 19 19:07:02.884 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 7 udp-d5c640ae-7875-4872-b083-e5bf851e341e 
+Nov 19 19:07:02.889 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:07:02.977 HYPERVISOR: exec_cmd: nio create_udp udp-4f489a3f-05b8-43db-896d-8445c3d6813d 10036 127.0.0.1 10037 
+Nov 19 19:07:02.984 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SW-Sant 1 0 udp-4f489a3f-05b8-43db-896d-8445c3d6813d 
+Nov 19 19:07:02.984 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:08:57.064 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Nov 19 19:08:57.064 VM: VM Ghost created.
+Nov 19 19:08:57.064 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Usuario/GNS3/images/IOS/c2691-adventerprisek9_sna-mz.124-13b.image 
+Nov 19 19:08:57.064 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 19 19:08:57.069 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\c2691-adventerprisek9_sna-mz.124-13b.image-192.ghost 
+Nov 19 19:08:57.069 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Nov 19 19:08:57.071 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 19 19:08:57.072 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 19 19:08:57.073 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 19 19:08:57.529 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 19 19:08:57.531 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 19 19:08:57.706 VM: VM Ghost shutdown.
+Nov 19 19:08:57.706 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 19 19:08:57.711 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 19 19:08:57.711 VM: VM Ghost destroyed.
+Nov 19 19:08:57.724 HYPERVISOR: exec_cmd: vm set_ghost_status SW-Sant 2 
+Nov 19 19:08:57.724 HYPERVISOR: exec_cmd: vm set_ghost_file SW-Sant C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\c2691-adventerprisek9_sna-mz.124-13b.image-192.ghost 
+Nov 19 19:08:57.724 HYPERVISOR: exec_cmd: vm get_status SW-Sant 
+Nov 19 19:08:57.724 HYPERVISOR: exec_cmd: vm set_config SW-Sant configs\i3_startup-config.cfg 
+Nov 19 19:08:57.724 HYPERVISOR: exec_cmd: vm start SW-Sant 
+Nov 19 19:27:28.540 HYPERVISOR: exec_cmd: vm extract_config SW-Sant 
+Nov 19 19:27:28.552 HYPERVISOR: exec_cmd: vm extract_config SW-Sant 

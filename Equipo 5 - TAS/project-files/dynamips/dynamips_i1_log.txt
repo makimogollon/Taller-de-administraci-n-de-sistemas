@@ -1,0 +1,31 @@
+Nov 19 19:06:58.960 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 19 19:06:58.962 HYPERVISOR: Started on IP = localhost, TCP port = 64818.
+Nov 19 19:06:59.390 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 19:06:59.390 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips 
+Nov 19 19:06:59.394 GENERAL: working_dir=C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\21ccdc44-5119-4ed5-addb-56a97e041cc1 
+Nov 19 19:06:59.394 GENERAL: working_dir=C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\21ccdc44-5119-4ed5-addb-56a97e041cc1
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: vm create R1 1 c2691 
+Nov 19 19:06:59.394 VM: VM R1 created.
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: c2691 get_mac_addr R1 
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: vm set_disk0 R1 32 
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: vm set_disk1 R1 32 
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Usuario/GNS3/images/IOS/c2691-adventerprisek9_sna-mz.124-13b.image 
+Nov 19 19:06:59.394 HYPERVISOR: exec_cmd: c2691 set_mac_addr R1 c001.0924.0000 
+Nov 19 19:06:59.404 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 19 19:06:59.404 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Nov 19 19:06:59.406 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 19 19:06:59.406 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-16ESW 
+Nov 19 19:07:01.674 HYPERVISOR: exec_cmd: nio create_udp udp-27194199-2700-4724-8802-84faa9fba7d4 10004 127.0.0.1 10005 
+Nov 19 19:07:01.974 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-27194199-2700-4724-8802-84faa9fba7d4 
+Nov 19 19:07:01.976 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 19 19:07:03.000 HYPERVISOR: exec_cmd: nio create_udp udp-50ced8ba-4e43-43a7-9c9d-48ae90b74ff6 10038 127.0.0.1 10039 
+Nov 19 19:07:03.003 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-50ced8ba-4e43-43a7-9c9d-48ae90b74ff6 
+Nov 19 19:07:03.005 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 19 19:30:05.450 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 19 19:30:05.450 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\Usuario\Desktop\Repositorios\Taller-de-administraci-n-de-sistemas\Equipo 5 - TAS\project-files\dynamips\c2691-adventerprisek9_sna-mz.124-13b.image-192.ghost 
+Nov 19 19:30:05.450 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 19 19:30:05.450 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Nov 19 19:30:05.453 HYPERVISOR: exec_cmd: vm start R1 
